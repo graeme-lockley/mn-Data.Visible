@@ -6,7 +6,7 @@ code which evaluates to the same value as the expression `x`.
 
 ```haskell
 interface Show a where
-show :: a -> String
+    show :: a -> String
 ```
 This interface offers no default implementations.
 
